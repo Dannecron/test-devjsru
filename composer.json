@@ -1,0 +1,27 @@
+{
+    "name": "dannc/test-devjsru",
+    "description": "test task",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dannc",
+            "email": "dannc.sao@gmail.com"
+        }
+    ],
+    "minimum-stability": "RC",
+    "require": {
+        "php": "^7.2",
+        "nategood/commando": "^0.2",
+        "illuminate/support": "^5.6"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.0@dev",
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dogs\\": "src/"
+        }
+    }
+}
